@@ -1,4 +1,25 @@
-To download a file from a GitHub repository, make changes to it, and push the changes back, you can follow these steps:  
+#### **if you need to setup new folder for the github …or create a new repository on the command line**
+
+echo "# git-bootcamp" >> README.md  
+git init  
+git add README.md  
+git commit -m "first commit"  
+git branch -M master  
+git remote add origin https://github.com/sbouddha/git-bootcamp.git  
+git push -u origin master  
+
+---
+
+#### **…or push an existing repository from the command line**
+
+git remote add origin https://github.com/sbouddha/git-bootcamp.git  
+git branch -M master  
+git push -u origin master  
+
+---
+
+**To download a file from a GitHub repository, make changes to it, and push the changes back, you can follow these steps:**
+
 1. Clone the repository to your local machine using the git clone command. For example, to clone a repository named "my-repo" owned by the user "my-user", you can run the following command in your terminal:
 ```
 git clone https://github.com/sbouddha/sql-100-days.git
@@ -27,22 +48,3 @@ git push origin master
 ```
 
 Note that you may need to authenticate with your GitHub username and password or access token to push the changes.
-
----
-#### **if you need to setup new folder for the github …or create a new repository on the command line**
-
-echo "# git-bootcamp" >> README.md  
-git init  
-git add README.md  
-git commit -m "first commit"  
-git branch -M master  
-git remote add origin https://github.com/sbouddha/git-bootcamp.git  
-git push -u origin master  
-
----
-
-#### **…or push an existing repository from the command line**
-
-git remote add origin https://github.com/sbouddha/git-bootcamp.git  
-git branch -M master  
-git push -u origin master  
