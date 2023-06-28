@@ -29,12 +29,20 @@ git push origin master
 Note that you may need to authenticate with your GitHub username and password or access token to push the changes.
 
 ---
-if you need to setup new folder for the github:
+#### **if you need to setup new folder for the github …or create a new repository on the command line**
 
-echo "# git-bootcamp" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/sbouddha/git-bootcamp.git
-git push -u origin master
+echo "# git-bootcamp" >> README.md  
+git init  
+git add README.md  
+git commit -m "first commit"  
+git branch -M master  
+git remote add origin https://github.com/sbouddha/git-bootcamp.git  
+git push -u origin master  
+
+---
+
+#### **…or push an existing repository from the command line**
+
+git remote add origin https://github.com/sbouddha/git-bootcamp.git  
+git branch -M master  
+git push -u origin master  
