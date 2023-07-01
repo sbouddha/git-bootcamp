@@ -320,6 +320,7 @@ frontend_languages:
 In the example above, I created a list of frontend_languages, where there are multiple values under the same key, frontend_languages.
 
 Similarly, you can create a list of objects:
+
 ```yml
 Employees:
 - name: John Doe
