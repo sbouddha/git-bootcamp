@@ -60,7 +60,7 @@ GitLab has a distributed architecture that consists of multiple components worki
 9.  Monitoring and Logging: GitLab provides monitoring and logging capabilities to track the performance and health of the system. This includes monitoring system metrics, application logs, and error tracking.
     
 It's worth noting that GitLab is an open-source platform, which means you have the option to host and customize your own instance of GitLab using the provided architecture or use GitLab's cloud-based SaaS platform for a hosted solution.
-![Gitlab Architecture](GitLab_Architecture.png)
+<img src="GitLab_Architecture.png" alt="Gitlab Architecture" width="500" height="300">
 
 ### **What is CI/CD ?**
 
@@ -85,4 +85,10 @@ CD Pipeline:
 - Review/Test
 - Staging
 - Production
+
+---
+### **Status while executing jobs**
+After a command is executed, i will return an exit status: 
+- 0 : Job Succeeded
+- 1-255 : Job Failed , ERROR:Job failed : exit code 1
 
