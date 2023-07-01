@@ -330,6 +330,8 @@ Employees:
   department: IT support
   country: United Kingdom
 ```
+Note: If you put . in front of step in yml, that step will be stopped from execution.
+
 
 **Conclusion**  
 Hopefully, this article was helpful and gave you insight into what YAML is, what the syntax of the language looks like, and how it differs from XML and JSON.
